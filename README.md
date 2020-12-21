@@ -5,6 +5,9 @@ Energomera example CLI application written in Go
 
 To build it:
 ```bash
+git clone https://github.com/peak-load/energomera-cli.git
+cd energomera-cli
+go get -v
 go build 
 ```
 
