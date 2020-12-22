@@ -23,7 +23,7 @@ To configure it edit config.json file located in the same directory
 
 * Port - specify your port connected to rs-485 bus. Depends on your adapter model or OS (I'm using on Linux under RPi3) port can be different e.g. /dev/ttyS0 or /dev/USB0
 * SleepInterval - in milliseconds, can be adjusted if you are getting errors due to long read time
-* Counters - specify your power meter unique IDs. ID needs to be set beforehand using windows based utiliy as [described in manual here](https://shop.energomera.kharkov.ua/DOC/ASKUE-485/meter_settings_network_RS485.pdf)
+* Counters - specify your electricity meter unique IDs. ID needs to be set beforehand using windows based utiliy as [described in manual here](https://shop.energomera.kharkov.ua/DOC/ASKUE-485/meter_settings_network_RS485.pdf)
 
 
 To run it (with sample output):
@@ -67,10 +67,11 @@ tarif3: "26404.3700133"
 * https://github.com/sj-asm/energomera
 
 ## Documentation / resources
-* GOST-R MEK 61107-2001 (RU) https://standartgost.ru/g/ГОСТ_Р_МЭК_61107-2001
-* Manufacturer website (RU) http://www.energomera.ru
-* Power meter users manual (RU) http://www.energomera.ru/documentations/ce102m_full_re.pdf
-* Power meter basic setup guide (RU) https://shop.energomera.kharkov.ua/DOC/ASKUE-485/meter_settings_network_RS485.pdf
+* GOST-R MEK 61107-2001  standard describing electricity meter protocol (RU) https://standartgost.ru/g/ГОСТ_Р_МЭК_61107-2001
+* Electricity meter manufacturer website (RU) http://www.energomera.ru
+* Electricity meter users manual (RU) http://www.energomera.ru/documentations/ce102m_full_re.pdf
+* Electricity meter basic setup guide (RU) https://shop.energomera.kharkov.ua/DOC/ASKUE-485/meter_settings_network_RS485.pdf
+
 
 # License
 MIT License, see [LICENSE](https://github.com/peak-load/energomera_exporter/blob/main/LICENSE)
